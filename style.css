@@ -1,0 +1,16 @@
+h3{
+    color: brown;
+    font-size: 40px;
+}
+h1{
+    font-size: 30px;
+}
+form{
+    text-align: center;
+}
+label{
+    font-family: 'Courier New', Courier, monospace;
+}
+button{
+    font-family: 'Courier New', Courier, monospace;
+}
