@@ -4,34 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        h1{
-            font-family: 'Courier New', Courier, monospace;
-            color: blueviolet;
-        }
-        form{
-            background-color: violet;
-            border: 3px solid blueviolet;
-        }
-    </style>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form action="">
-        <h3>For Internal Styling</h3>
-        <h1>Login</h1>
-        <label for="email">Email:</label> <input type="email" id="email" placeholder="Enter your Email"> <br> <br>
-        <label for="pwd">Password:</label> <input type="password" id="pwd" placeholder="Enter your Password"> <br> <br>
-        <button type="submit">Login</button>
-    </form>
-    <form action="" style=" background-color: darkslategrey; border: 5px solid;">
-        <h3>For Inline Styling</h3>
-        <h1 style="color: grey;">Sign up</h1>
-        <label for="FName">First Name: </label> <input type="text" id="FName"> <br> <br>
-        <label for="LName">Last Name: </label> <input type="text" id="LName"> <br> <br>
-        <label for="email">Email:</label> <input type="email" id="email"> <br> <br>
-        <label for="pwd">Password:</label> <input type="password"> <br> <br>
-        <button type="submit">Signup</button>
+        <h1 id="main-heading">Sign up</h1>
+        <label for="FName" class="field-label">First Name: </label> <input type="text" id="FName" placeholder="First Name"> <br> <br>
+        <label for="LName" class="field-label">Last Name: </label> <input type="text" id="LName" placeholder="Last Name"> <br> <br>
+        <label for="email" class="field-label">Email:</label> <input type="email" id="email"> <br> <br>
+        <label for="pwd" class="field-label">Password:</label> <input type="password"> <br> <br>
+        <button type="submit" id="btn">Signup</button>
     </form>
 </body>
 </html>
